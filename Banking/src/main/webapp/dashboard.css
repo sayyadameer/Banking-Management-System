@@ -1,0 +1,162 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.user {
+    margin-right: 20px;
+}
+
+.signout {
+    background-color: #ff4d4d;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.signout:hover {
+    background-color: #ff1a1a;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.success-message {
+    text-align: center;
+    font-size: 24px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.account-section {
+    margin-bottom: 40px;
+}
+
+.add-account {
+    display: block;
+    width: 200px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-account:hover {
+    background-color: #218838;
+}
+
+.balance-section {
+    margin-bottom: 40px;
+}
+
+.balance-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.total-balance {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.account-details {
+    margin-top: 20px;
+}
+
+.account-details h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.transact-section {
+    text-align: center;
+}
+
+.transact-section h3 {
+    margin-bottom: 20px;
+}
+
+.transaction-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.transaction-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-buttons button:hover {
+    background-color: #0056b3;
+}
