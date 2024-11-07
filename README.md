@@ -28,10 +28,15 @@ The project uses **Java** for the backend, **JDBC** for database interaction, an
 ![User Dashboard](dashboard.jpg)
 
 ### 3. Account Creation
-![Account Creation](registration.jpg)
+![Account Creation](register.jpg)
 
-### 4. Credit Funds
+### 4. Open new account
+![Deposit Funds](account.jpg)
+
+### 5. Credit Funds
 ![Deposit Funds](credit.jpg)
+
+
 
 
 > **Note:** To add these images, ensure you have a directory named `images` in the project folder, where all screenshots are stored. Replace the image file names with the actual names of your screenshots.
